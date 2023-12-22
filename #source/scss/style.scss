@@ -1,0 +1,38 @@
+
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+.wrapper{
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+body{
+    font-family: Arial,
+    Helvetica, "Helvetica Neue", sans-serif;
+}
+.block{
+
+}
+
+/* flex-контейнер */
+.block__row{
+
+border: 10px solid #ece89d;
+display:flex;
+flex-direction:row;
+}
+
+/* flex-элемент */
+.block__element{
+
+border: 5px solid #5e5373;
+}
+
+/* контент */
+.block__content{
+
+background-color: #18b5a4;
+/* плюс прочие стили для текста, отступы */
+}
